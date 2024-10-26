@@ -17,6 +17,19 @@
             background-size: 10px 10px;
             overflow-x: hidden; /* Prevent horizontal scrolling */
         }
+        ::-webkit-scrollbar {
+            width: 8px; 
+            background-color: rgba(255, 255, 255, 0.1); 
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #444444; 
+            border-radius: 10px; 
+        }
+
+        * {
+            scrollbar-width: thin; 
+            scrollbar-color: #444444 rgba(255, 255, 255, 0.1); 
         .header, .footer {
             background-color: transparent;
         }
